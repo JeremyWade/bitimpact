@@ -1,94 +1,151 @@
 
+        <div class="nav-container">
+            <div>
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2">
+                                <%= link_to root_path do %>
+                                    <%= image_tag('bilogo.png', class: 'logo logo-dark', alt: 'bitimpact') %>
+                                    <% end %>
+                            </div>
+                            <div class="col-xs-9 col-sm-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs">
+                                <div class="bar__module">
+                                 <%= link_to root_path do %>
+                                    <%= image_tag('bilogo.png', class: 'logo logo-dark', alt: 'bitimpact') %>
+                                    <% end %>
+                                </div>
+                            </div>
+                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li> <a href="#">
+                                    </a> </li>
+                                        <li class="dropdown"> <span class="dropdown__trigger">
+                                    </span>
+                                            <div class="dropdown__container">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="dropdown__content col-md-2">
+                                                            <ul class="menu-vertical">
+                                                                <li> <a href="#"></a> </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown"> <span class="dropdown__trigger">
+                        
+                                    </span>
+                                            <div class="dropdown__container">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="dropdown__content col-md-12">
+                                                            <div class="col-md-3">
+                                                                <h5>Menu Title</h5>
+                                                                <ul class="menu-vertical">
+                                                                    <li> <a href="#">Single Link</a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <h5>Menu Title</h5>
+                                                                <ul class="menu-vertical">
+                                                                    <li> <a href="#">Single Link</a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <h5>Menu Title</h5>
+                                                                <ul class="menu-vertical">
+                                                                    <li> <a href="#">Single Link</a> </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <h5>Menu Title</h5>
+                                                                <ul class="menu-vertical">
+                                                                    <li> <a href="#">Single Link</a> </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bar__module">
+                                <%= link_to "Support", "#", :class => "btn btn--sm type--uppercase"%>
+                                    <%= link_to "https://medium.com/bitimpact-lab", :class => "btn btn--loading type--uppercase" do %>
+                                        Learn More
+                                        <% end %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
     <body data-smooth-scroll-offset="77">
         <div class="nav-container"> </div>
         <div class="main-container">
-            <section class="cover imagebg height-80 text-center" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
-                <div class="background-image-holder background--top"> <img alt="background" src="img/cowork-1.jpg"> </div>
+            <section class="cover imagebg height-80 text-center" data-gradient-bg="#006263,#43aca6,#43aca6,#f1c40f,#000000,#000000">
+                <%= image_tag('vignesh.jpg', class: 'background-image-holder background--top', alt: 'background') %>
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-9 col-md-7">
-                            <h1> Build stylish, lean sites with Stack </h1>
-                            <p class="lead"> Stack offers a clean and contemporary look to suit a range of purposes from corporate, tech startup, marketing site to digital storefront. </p>
-                            <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
-						View The Demos
-					</span> </a>
+                            <h1>Impact. Hard-coded.</h1>
+                            <p class="lead">Inclusion by design with verified impact using blockchain technology </p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="imageblock switchable height-100">
                 <div class="imageblock__content col-md-6 col-sm-4 pos-right">
-                    <div class="background-image-holder"> <img alt="image" src="img/inner-7.jpg"> </div>
+                    <%= image_tag('blocks.jpg', class: 'background-image-holder', alt: 'bitimpact') %>
                 </div>
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-md-5 col-sm-7">
-                            <h1>Streamline your workflow with Stack</h1>
-                            <p class="lead"> Stack offers a clean and contemporary look to suit a range of purposes from corporate, tech startup, marketing site to digital storefront. </p>
+                            <h1>Proof of Impact</h1>
+                            <p class="lead">The Bitimpact network supports and incubates decentralized blockchain projects with social impact incentives. </p>
                             <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
-						View The Demos
+						Learn More
 					</span> </a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="text-center unpad--bottom switchable cta cta-3 imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-7">
-                            <div class="switchable__text">
-                                <h2>Streamline your workflow with Stack</h2>
-                                <p class="lead"> Create the smart, stylish site your business deserves. </p>
-                                <a class="btn btn--primary type--uppercase" href="#purchase-template"> <span class="btn__text">
-                            Purchase Stack Now
-                        </span> <span class="label">$17 USD</span> </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-5"> <img alt="Image" class="block" src="img/avatar-large-1.png"> </div>
-                    </div>
-                </div>
-            </section>
-            <section class="bg--primary unpad cta cta-2 text-center">
-                <a href="#purchase-template">
+        <section class="bg--primary unpad cta cta-2 text-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <h2>Stand up for change.</h2>
+                                <h2>Incusion by design.</h2>
                             </div>
                         </div>
                     </div>
                 </a>
             </section>
-            <section class="text-center">
+        <section class="testimonials-1 space--xs">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-md-6">
-                            <div class="cta">
-                                <h2>Make your site stand out</h2>
-                                <a class="btn btn--primary type--uppercase" href="#purchase-template"> <span class="btn__text">
-                            Purchase Stack Now
-                        </span> <span class="label">$17 USD</span> </a>
-                                <p class="type--fine-print">or check out <a href="index.html">more demos</a></p>
-                            </div>
+                        <div class="col-sm-3">
+                            <p class="lead"><br class="hidden-xs hidden-sm">Founding Members</p>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
-                <div class="container">
-                    <div class="row">
-                        <div class="cta cta--horizontal text-center-xs">
-                            <div class="col-sm-4">
-                                <h4>Let's get you started</h4>
-                            </div>
-                            <div class="col-sm-5">
-                                <p class="lead"> Start building beautiful pages in your browser </p>
-                            </div>
-                            <div class="col-sm-3 text-right text-center-xs">
-                                <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
-                            Try Builder
-                        </span> </a>
-                            </div>
+                        <div class="col-sm-9">
+                            <ul class="list-inline social-list" id="horizontal-list">
+                                <li>
+                                <%= image_tag('mcril.jpg', class: 'image--sm', alt: 'M-CRIL') %></li>
+                                <li> 
+                                <%= image_tag('jsie.png', class: 'image--sm', alt: 'JSiE') %></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -97,36 +154,32 @@
                 <div class="row row--gapless">
                     <div class="col-sm-6 height-50 bg--primary">
                         <div class="pos-vertical-center clearfix">
-                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"> <span class="h1">Join the Campaign.</span>
-                                <p class="lead"> Join our campaign to make our country a farer, more just place for all citizens. </p>
-                                <form>
-                                    <div class="row">
-                                        <div class="col-sm-12"> <input type="email" name="email" placeholder="Email Address"> </div>
-                                        <div class="col-sm-7 col-xs-6"> <input type="text" name="zip" placeholder="ZIP code"> </div>
-                                        <div class="col-sm-5 col-xs-6"> <button type="submit" class="btn btn--primary-1">Next</button> </div>
-                                    </div>
-                                </form>
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"> <span class="h1">Stay updated.</span>
+                                <p class="lead">We are learning fast and will keep you updated with new opportunities to engage soon. </p>
+                        <!-- newsletter form start -->
+                         <div id="newsletter">
+                         <div class="newsletter">
+                         <form action="https://jsie.us9.list-manage.com/subscribe/post?u=1d9cee480d11c55b46cafda06&amp;id=fe0421ae71" method="post" id="mc-embedded-subscribe-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                         <input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">                      
+                        <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <div class="clear">
+                        <div class="spacer-10"></div>
+                        <input type="submit" value="Learn More »" name="subscribe" id="mc-embedded-subscribe" class="btn btn--primary">
+        </div>
+    </form>
+</div>
+</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 height-50 bg--primary-1">
                         <div class="pos-vertical-center clearfix">
-                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"> <span class="h1">Then donate.</span>
-                                <p class="lead"> Our grass-roots campaign relies on the contributions of passionate patriots like you. </p>
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"> <span class="h1">Support us.</span>
+                                <p class="lead">We are accept donations in cryptocurrency.</p>
                                 <form>
-                                    <div class="row">
-                                        <div class="col-sm-3 col-xs-6">
-                                            <div class="input-radio input-radio--innerspan"> <span>$5</span> <input type="radio" name="donate" value="5"> </div>
-                                        </div>
-                                        <div class="col-sm-3 col-xs-6">
-                                            <div class="input-radio input-radio--innerspan"> <span>$15</span> <input type="radio" name="donate" value="15"> </div>
-                                        </div>
-                                        <div class="col-sm-3 col-xs-6">
-                                            <div class="input-radio input-radio--innerspan"> <span>$25</span> <input type="radio" name="donate" value="25"> </div>
-                                        </div>
-                                        <div class="col-sm-3 col-xs-6">
-                                            <div class="input-radio input-radio--innerspan"> <span>$100</span> <input type="radio" name="donate" value="100"> </div>
-                                        </div>
                                         <div class="col-sm-5 col-xs-12"> <button type="submit" class="btn btn--primary">Act Now</button> </div>
                                     </div>
                                 </form>
@@ -135,4 +188,13 @@
                     </div>
                 </div>
             </section>
+        </div>
+   <footer class="footer-7 text-center-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6"> <span class="type--fine-print">©2017 BitImpact — All Rights Reserved</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>

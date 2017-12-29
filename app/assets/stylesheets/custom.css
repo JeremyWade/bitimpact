@@ -1,1 +1,6 @@
 /*! Place your custom styles here */
+.spacer-10{
+	height:10px;
+	clear:both;
+	width:100%;
+}
