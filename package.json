@@ -1,5 +1,7 @@
 {
   "name": "bitimpact",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "smoothscroll": "^0.4.0"
+  }
 }
