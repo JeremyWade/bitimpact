@@ -565,6 +565,7 @@ img {
 }
 .background-image-holder.background--top {
   background-position: 50% 0% !important;
+  background-image:url('<%= asset_path("vignesh.jpg") %> ');
 }
 .image--light .background-image-holder {
   background: none;
