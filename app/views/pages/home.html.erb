@@ -83,7 +83,6 @@
                                     </ul>
                                 </div>
                                 <div class="bar__module">
-                                <%= link_to "Support", "#", :class => "btn btn--sm type--uppercase"%>
                                     <%= link_to "https://medium.com/bitimpact-lab", :class => "btn btn--loading type--uppercase" do %>
                                         Learn More
                                         <% end %>
@@ -107,18 +106,20 @@
                     </div>
                 </div>
             </section>
-            <section class="imageblock switchable height-100">
-                <div class="imageblock__content col-md-4 col-sm-6 pos-right">
-                </div>
-                <div class="container pos-vertical-center">
+            <section class="cover space--lg unpad--bottom bg switchable text-center">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-5 col-sm-7">
-                            <h1>Proof of Impact</h1>
-                            <p class="lead">The Bitimpact network supports and incubates decentralized blockchain projects with social impact incentives. </p>
-                            <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
-						Learn More
-					</span> </a>
-                        </div>
+                        <div class="col-sm-6">
+                            <div class="mt--2">
+                                <h1>Proof of Impact</h1>
+                                <p class="lead"> The Bitimpact network supports and incubates decentralized blockchain projects with social impact incentives. </p>
+                                <%= link_to "https://medium.com/bitimpact-lab", :class => "btn btn--secondary type--uppercase" do %>
+                                        Learn More
+                                        <% end %>
+                                    </div>
+                                </div>
+                        <div class="col-sm-6 col-md-5"> 
+                         <%= image_tag('blocks.jpg', class: 'image', alt: 'bitimpact') %>
                     </div>
                 </div>
             </section>
@@ -148,14 +149,27 @@
                     </div>
                 </div>
             </section>
-            <section class="text-center space--xxs bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                <h3>Stay Updated</h3>
-                                <h5>Join us as we learn and share our progress.</h5>
-                                <div class="col-sm-8 col-sm-offset-2 text-left">
-                                    <form action="//bitarrow.us12.list-manage.com/subscribe/post?u=fc2009ce5b4769c9c00dfec8d&amp;id=5596bc5955"><input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"><input type="submit" value="Stay Updated »" name="subscribe" class="btn btn--primary type--uppercase"></form>
+            <section class="unpad elaborate-form-1">
+                <div class="row row--gapless">
+                    <div class="col-sm-6 height-50 bg--primary">
+                        <div class="pos-vertical-center clearfix">
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"> <span class="h1">Stay updated.</span>
+                                <p class="lead">Join us as we learn and get notified about new opportunities.</p>
+                                <form action="//bitarrow.us12.list-manage.com/subscribe/post?u=fc2009ce5b4769c9c00dfec8d&amp;id=5596bc5955">
+                                    <input type="email" size="50" value="Enter your email" name="EMAIL" class="required email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"><input type="submit" value="Stay Updated »" name="subscribe" class="btn btn--primary type--uppercase"></form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 height-50 bg--primary-1">
+                        <div class="pos-vertical-center clearfix">
+                            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"> <span class="h1">Support us. </span>
+                                <p class="lead"> We accept donations in Bitcoin and Ether.</p>
+                                <p class="lead"> Bitcoin: 3H5MyMARUhgned8Gx8CcaMfggYk1mkgkbd
+</p>
+                                <p class="lead"> Ethereum: 0xa9F0A594cCe5200adbE1F1373D6623E4dF71FBe4</p>
+                                <form>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
